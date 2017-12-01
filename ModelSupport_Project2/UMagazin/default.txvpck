@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="5ewd8brke5t9f5jnh_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Project2:UMagazin.TMagazin">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="240,100,86,84" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:Project2:UMagazin.TMagazin.Chek" />
+      <reference referencedUin="delphi:l_ast:src:Project2:UMagazin.TMagazin.Chek">
+        <property name="sourceAnchor" value="326,142" />
+        <property name="targetAnchor" value="360,142" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project2:UMagazin.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project2:UChek.TChek">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="360,100,95,84" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:Project2:UChek.TChek.Towar" />
+      <reference referencedUin="delphi:l_ast:src:Project2:UChek.TChek.Towar">
+        <property name="sourceAnchor" value="455,133" />
+        <property name="targetAnchor" value="500,133" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project2:UTowar.TTowar">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="500,100,106,67" />
+      <property name="location_set_by_user" value="True" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project2:Unit2.TForm2">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="60,100,117,98" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:Project2:Unit2.TForm2.Magazin" />
+      <reference referencedUin="delphi:l_ast:src:Project2:Unit2.TForm2.Magazin">
+        <property name="sourceAnchor" value="177,142" />
+        <property name="targetAnchor" value="240,142" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+  </view>
+</nodeSet>
